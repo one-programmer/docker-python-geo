@@ -5,3 +5,4 @@ WORKDIR geos-3.4.2
 RUN ./configure
 RUN make
 RUN make install
+ENV LD_LIBRARY_PATH /usr/local/lib/
